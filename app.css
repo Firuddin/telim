@@ -1,11 +1,13 @@
-.tables {
-  width: 500px;
-  margin-left: 50px;
-  border: 10px double;
+.box {
+  background-color: blue;
 }
-.tables td {
- 
-  color: yellow;
+.section1 {
   background-color: aqua;
+  border-radius: 10px;
 }
-
+.section1 input{
+  border-radius: 15px;
+}
+.section1 label{
+  margin-left: 25px;
+}
