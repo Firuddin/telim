@@ -57,28 +57,44 @@ img {
 img:hover {
   opacity: 1;
 }
+/*----------------------------------------------*/
+* {
+  padding: 0;
+  box-sizing: border-box;
+}
 
-ul {
+.navbar {
+  display: flex;
+  margin-left: 50px;
+  margin-right: 50px;
+  justify-content: space-between;
+  font-size: 20px;
+}
+
+.link {
+  display: flex;
+  gap: 30px;
+
   list-style-type: none;
-  background-color: gray;
-  width: 300px;
-  margin: 0;
+}
+a {
+  text-decoration: none;
+}
+.btn {
   padding: 10px;
-  text-align: center;
-  border-radius: 20px;
+  border-radius: 70px;
+}
+.btn:hover {
+  background-color: aqua;
 }
 
-li a {
-  display: block;
-  text-decoration: none;
-  width: 90%;
-  padding: 10px;
-  border-radius: 20px;
+.logo {
+  border: 1px solid;
+  padding: 7px 20px;
 }
-li a:hover {
+
+a:hover {
+  background-color: gray;
   color: red;
-  background: #000;
-}
-li a:visited {
-  color: aqua;
+  border-radius: 50px;
 }
