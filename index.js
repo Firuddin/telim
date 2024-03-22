@@ -90,5 +90,5 @@ if (yatirilacaqMebleq>0) {
 let  name = 7>5
 console.log(typeof name);*/
 
-import { userValidation } from "./easy/1_userValidation.js";
-console.log(userValidation("u_hello_world1231"));
+import { UserValidation } from "./easy/1_userValidation.js";
+console.log(UserValidation(prompt("zehmet olmasa user validationu daxil et")));
