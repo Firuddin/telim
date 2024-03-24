@@ -1,7 +1,17 @@
-export const FirstFactorial = (str) => {
-  let Factorial = 2;
-  for (let i = 2; i <= str; i++) {
-    Factorial *= i;
+//Task:1
+/*export const FirstElement = (Num) => {
+  let factorial = 1;
+  for (let i = 1; i <= Num; i++) {
+    factorial *= i;
   }
-  return Factorial;
+  return factorial;
 };
+
+*/
+//Task2
+export const NewElement = (name)=>{
+ let hello = name.split("")
+ let newWord = hello.reverse()
+ let common = newWord.join("")
+return common
+}
