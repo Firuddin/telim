@@ -17,6 +17,6 @@ return common
 }*/
 
 //Task3
-export const ThreeElement =(param)=>{
+/*export const ThreeElement =(param)=>{
   return param.split("").reverse("").join("")
-}
+}*/
