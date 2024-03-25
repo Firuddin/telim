@@ -22,7 +22,7 @@ return common
 }*/
 
 //Task4
-export const FourElement = (arr) => {
+/*export const FourElement = (arr) => {
   let set1 = arr[0].split(",");
   let set2 = arr[1].split(",");
   let select = [];
@@ -38,4 +38,25 @@ export const FourElement = (arr) => {
   } else {
     return false;
   }
+};*/
+export const FiveElement = (par) => {
+  if (par.length < 5) {
+    return false;
+  }
+  let newArr = par.replace(/[^0-9?]/g, "");
+
+  let name = newArr.split("");
+
+  let sums = [];
+  let sum = 0;
+  let iteration = 0;
+
+  name.forEach((item) => {
+    if (item != "?") {
+      sum = parseInt(item) + parseInt(name[iteration + 4]);
+      sums.push(sum);
+    }
+    iteration += 1;
+  });
+  return sums;
 };
