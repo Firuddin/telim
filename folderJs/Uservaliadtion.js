@@ -39,7 +39,7 @@ return common
     return false;
   }
 };*/
-export const FiveElement = (par) => {
+/*export const FiveElement = (par) => {
   if (par.length < 5) {
     return false;
   }
@@ -59,4 +59,27 @@ export const FiveElement = (par) => {
     iteration += 1;
   });
   return sums;
+};*/
+export const FourElement = (Str) => {
+  if (Str.length > 5) {
+    return false;
+  }
+
+  let newArr = Str.replace(/[^0-9?]/g, "").split("");
+  
+
+  let sums = []
+  let sum=0
+  let iteration = 0
+
+  newArr.forEach((item) => {
+if (item!= 0) {
+  sum = +item+ +newArr[iteration+4]
+  sums.push(sum)
+}
+iteration+=1
+
+    
+  });
+  return sums
 };
