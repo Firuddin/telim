@@ -10,5 +10,8 @@ console.log(FourElement(["1, 3, 5, 7, 9","1, 10, 5, 15, 9"]));*/
 
 /*import { FiveElement } from "./folderJs/Uservaliadtion.js";
 console.log(FiveElement("acaca4???8lewfiuc"));*/
-import { FourElement } from "./folderJs/Uservaliadtion.js";
-console.log(FourElement("4???6"));
+/*import { FourElement } from "./folderJs/Uservaliadtion.js";
+console.log(FourElement("4???6"));*/
+
+import { sixElement } from "./folderJs/Uservaliadtion.js";
+console.log(sixElement("5"));

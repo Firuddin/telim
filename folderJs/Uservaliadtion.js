@@ -60,7 +60,7 @@ return common
   });
   return sums;
 };*/
-export const FourElement = (Str) => {
+/*export const FourElement = (Str) => {
   if (Str.length > 5) {
     return false;
   }
@@ -82,4 +82,13 @@ iteration+=1
     
   });
   return sums
+};
+*/
+
+export const sixElement = (str) => {
+  let number = 1;
+  for (let i = 1; i < str; i++) {
+    number += i;
+  }
+  return number;
 };
