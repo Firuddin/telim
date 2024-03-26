@@ -86,9 +86,10 @@ iteration+=1
 */
 
 export const sixElement = (str) => {
-  let number = 1;
-  for (let i = 1; i < str; i++) {
-    number += i;
+  let number = 0;//1,3,6,10,15
+  for (let i = 1; i <= str; i++) {
+    //number+=i
+    number = number + i;
   }
   return number;
 };
