@@ -13,5 +13,9 @@ console.log(FiveElement("acaca4???8lewfiuc"));*/
 /*import { FourElement } from "./folderJs/Uservaliadtion.js";
 console.log(FourElement("4???6"));*/
 
-import { sixElement } from "./folderJs/Uservaliadtion.js";
-console.log(sixElement("5"));
+/*import { sixElement } from "./folderJs/Uservaliadtion.js";
+console.log(sixElement("5"));*/
+let name = "salam";
+let newArr = name.charAt(0).toUpperCase();
+let neww = name.slice(1, name.length);
+console.log(newArr + neww);

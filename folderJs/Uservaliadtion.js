@@ -84,12 +84,14 @@ iteration+=1
   return sums
 };
 */
-
-export const sixElement = (str) => {
+//Task 5
+/*export const sixElement = (str) => {
   let number = 0;//1,3,6,10,15
   for (let i = 1; i <= str; i++) {
     //number+=i
     number = number + i;
   }
   return number;
-};
+};*/
+
+
