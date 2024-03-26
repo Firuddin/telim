@@ -94,4 +94,10 @@ iteration+=1
   return number;
 };*/
 
-
+export const sevenElement=(str)=>{
+  let newArr = []
+  str.split(' ').forEach((elem) => {
+    newArr.push(elem.charAt(0).toUpperCase()+ elem.slice(1,elem.length))
+  });
+return newArr.join(' ')
+}

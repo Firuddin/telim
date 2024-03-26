@@ -15,7 +15,9 @@ console.log(FourElement("4???6"));*/
 
 /*import { sixElement } from "./folderJs/Uservaliadtion.js";
 console.log(sixElement("5"));*/
-let name = "salam";
+/*let name = "salam";
 let newArr = name.charAt(0).toUpperCase();
 let neww = name.slice(1, name.length);
-console.log(newArr + neww);
+console.log(newArr + neww);*/
+import { sevenElement } from "./folderJs/Uservaliadtion.js";
+console.log(sevenElement("salam men eliyev firudin front end devoloper kimi isleyirem"));
