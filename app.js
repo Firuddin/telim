@@ -26,7 +26,10 @@ console.log(EightElement("salam men firuddin, mohhtesem dunya ehli necesiz?"));*
 
 /*import { TenElement } from "./folderJs/Uservaliadtion.js";
 console.log(TenElement("++d+===+c++==a"));*/
- 
-import { elevenElement } from "./folderJs/Uservaliadtion.js";
-console.log(elevenElement("63"));
 
+/*import { elevenElement } from "./folderJs/Uservaliadtion.js";
+console.log(elevenElement("63"));
+*/
+
+import { StringSymbol } from "./folderJs/Uservaliadtion.js";
+console.log(StringSymbol("necesen"));

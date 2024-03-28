@@ -94,6 +94,7 @@ iteration+=1
   return number;
 };*/
 
+//Task6
 /*export const sevenElement=(str)=>{
   let newArr = []
   str.split(' ').forEach((elem) => {
@@ -103,6 +104,7 @@ return newArr.join(' ')
 }
 */
 
+//Task7
 /*export const TenElement = (parametr) => {
   let newArr = [];
   let controller = parametr.split("");
@@ -129,9 +131,19 @@ return newArr.join(' ')
   }
 };
 */
-export const elevenElement = (str) => {
+//Task8
+/*export const elevenElement = (str) => {
   let qaliq = str % 60; // saat 3
   let hours = str / 60; // qaliq 1
 
   return `${Math.floor(hours)}:${qaliq}`;
+};
+*/
+//Task9
+export const StringSymbol = (par) => {
+  let name = par.split("");
+  let newArr = name.sort();
+  let Newvariable = newArr.join('')
+
+  return Newvariable;
 };
