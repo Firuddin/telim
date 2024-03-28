@@ -24,7 +24,9 @@ console.log(sevenElement("salam men eliyev firudin front end devoloper kimi isle
 /*import { EightElement } from "./folderJs/Uservaliadtion.js";
 console.log(EightElement("salam men firuddin, mohhtesem dunya ehli necesiz?"));*/
 
-import { TenElement } from "./folderJs/Uservaliadtion.js";
-console.log(TenElement("++d+===+c++==a"));
-
+/*import { TenElement } from "./folderJs/Uservaliadtion.js";
+console.log(TenElement("++d+===+c++==a"));*/
+ 
+import { elevenElement } from "./folderJs/Uservaliadtion.js";
+console.log(elevenElement("63"));
 

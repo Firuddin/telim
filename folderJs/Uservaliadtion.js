@@ -103,7 +103,7 @@ return newArr.join(' ')
 }
 */
 
-export const TenElement = (parametr) => {
+/*export const TenElement = (parametr) => {
   let newArr = [];
   let controller = parametr.split("");
   console.log(controller);
@@ -127,4 +127,11 @@ export const TenElement = (parametr) => {
   } else {
     return true;
   }
+};
+*/
+export const elevenElement = (str) => {
+  let qaliq = str % 60; // saat 3
+  let hours = str / 60; // qaliq 1
+
+  return `${Math.floor(hours)}:${qaliq}`;
 };
