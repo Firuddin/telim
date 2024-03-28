@@ -31,5 +31,6 @@ console.log(TenElement("++d+===+c++==a"));*/
 console.log(elevenElement("63"));
 */
 
-import { StringSymbol } from "./folderJs/Uservaliadtion.js";
+/*import { StringSymbol } from "./folderJs/Uservaliadtion.js";
 console.log(StringSymbol("necesen"));
+*/

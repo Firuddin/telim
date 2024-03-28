@@ -140,10 +140,11 @@ return newArr.join(' ')
 };
 */
 //Task9
-export const StringSymbol = (par) => {
+/*export const StringSymbol = (par) => {
   let name = par.split("");
   let newArr = name.sort();
   let Newvariable = newArr.join('')
 
   return Newvariable;
 };
+*/
