@@ -94,10 +94,37 @@ iteration+=1
   return number;
 };*/
 
-export const sevenElement=(str)=>{
+/*export const sevenElement=(str)=>{
   let newArr = []
   str.split(' ').forEach((elem) => {
     newArr.push(elem.charAt(0).toUpperCase()+ elem.slice(1,elem.length))
   });
 return newArr.join(' ')
 }
+*/
+
+export const TenElement = (parametr) => {
+  let newArr = [];
+  let controller = parametr.split("");
+  console.log(controller);
+
+  controller.forEach((element) => {
+    if (/[a-zA-Z]/.test(element)) {
+      console.log(element);
+      if (
+        controller[controller.indexOf(element) - 1] === "+" &&
+        controller[controller.indexOf(element) + 1] === "+"
+      ) {
+        newArr.push(1);
+      } else {
+        newArr.push(0);
+      }
+    }
+  });
+  console.log(newArr);
+  if (newArr.includes(0)) {
+    return false;
+  } else {
+    return true;
+  }
+};

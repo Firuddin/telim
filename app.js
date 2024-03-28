@@ -19,5 +19,12 @@ console.log(sixElement("5"));*/
 let newArr = name.charAt(0).toUpperCase();
 let neww = name.slice(1, name.length);
 console.log(newArr + neww);*/
-import { sevenElement } from "./folderJs/Uservaliadtion.js";
-console.log(sevenElement("salam men eliyev firudin front end devoloper kimi isleyirem"));
+/*import { sevenElement } from "./folderJs/Uservaliadtion.js";
+console.log(sevenElement("salam men eliyev firudin front end devoloper kimi isleyirem"));*/
+/*import { EightElement } from "./folderJs/Uservaliadtion.js";
+console.log(EightElement("salam men firuddin, mohhtesem dunya ehli necesiz?"));*/
+
+import { TenElement } from "./folderJs/Uservaliadtion.js";
+console.log(TenElement("++d+===+c++==a"));
+
+
