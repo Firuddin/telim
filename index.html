@@ -1,19 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
     <div id="editor" contenteditable="true"></div>
-    <button onclick="boldText()">bold</button>
-    <button onclick="italicText()">italic</button>
-    <button onclick="underLineText()">underline</button>
-    <button onclick="copyText()">copy</button>
-    <button onclick="pasteText()">paste</button>
-    <button onclick="CutText()">cut</button>
-    <button onclick="undo()">undo</button>
-    <button onclick="redo()">redo</button>
+    <button onclick="BoldText()">Bold</button>
+    <button onclick="ItalicText()">Italic</button>
+    <button onclick="UnderLineText()">Underline</button>
+    <button onclick="Undo()">undo</button>
+    <button onclick="Redo()">redo</button>
+    <button onclick="CopyText()">copy</button>
+    <button onclick="CutText()">Cut</button>
+    <button onclick="PasteText()">paste</button>
+
+
+    <select id="ChangeFontSize" onchange="FontSize()">
+        <option value="12">12px</option>
+        <option value="16">16px</option>
+        <option value="20">20px</option>
+        <option value="24">24px</option>
+    </select>
+
+    <select  id="ChangeFont" onchange="FontChange()">
+        <option value="Arial">Arial</option>
+        <option value="Times New Roman">Times New Roman</option>
+        <option value="Georgia">Georgia</option>
+        <option value="Courier New">Courier New</option>
+        <option value="Verdana">Verdana</option>
+    </select>
+    <script src="./app.js"></script>
 </body>
+
 </html>
