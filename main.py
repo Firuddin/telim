@@ -78,12 +78,34 @@ for name in new_list:
     
     
     
-new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+#new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
 
-istifadeci_sayi = 0
+"""istifadeci_sayi = 0
 
 for name in new_list:
-    istifadeci_sayi+=1
-ad = name.split()[0]
-soyad =name.split()[1]
-print('{}. istifadeci adi {} ve soyadi {}'.format(istifadeci_sayi,ad,soyad))
+    istifadeci_sayi=istifadeci_sayi+1
+    ad = name.split()[0]
+    soyad =name.split()[1]
+    print('{}. istifadeci adi {} ve soyadi {}'.format(istifadeci_sayi,ad,soyad))"""
+    
+    
+
+
+
+
+new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+
+moderator = "Hesen Huseynov"
+
+istifadec_sayi=0
+moderator_sayı=0
+
+for name in new_list:
+    ad =name.split()[0]
+    soyad =name.split()[1]
+    if name == moderator:
+        moderator_sayı+=1
+        print('{}.Moderator adi {} ve  soyadi {}'.format(moderator_sayı,ad,soyad))
+    else:
+        istifadec_sayi+=1
+        print('{}.istifadeci adi {} ve soyadi {}'.format(istifadec_sayi,ad,soyad))
