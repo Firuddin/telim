@@ -24,23 +24,66 @@ print(sentence)"""
 #"""
 #print(common)
 
-"""favoriteFruit = "Apple"
-favoritePrice = 2
-common = "My favoriteFruit is %s.  \
-My favoritePrice is %s..."%(favoriteFruit,favoritePrice)
-print(common)"""
-
-"""name = "ali"
-print(name*2) """
+"""
+daxil edecem admin--> xos geldin cenab admin
+daxil edecem user--> xos geldin cenab istifadeci
+daxil edecem guest--> xos geldin cenab qonaq
+daxil edecem ejbcuy--> zehmet olmasa duzgun ad daxil edin
+"""
 
 
+""" 
+age -->alacaqsiz userden
 
+age<18 olarsa imtahanda istirak ede bilmezsen
+age = 18 olarsa imtahanda istirak ede bilersen
+age>18 olarsa imtahanda istirak ede bilersen
+"""
 
-
+"""
 name = input("zehmet olmasa ad daxil edin")
+
 if name == "Admin":
     print("xos geldin cenab admin")
 elif name == "User":
-    print("xos geldin cenab user")
+    print("xos geldin cenab istifadeci")
+elif name == "Guest":
+    print("xos geldin cenab qonaq")
 else:
-    print("zehmet olmasa duzgun istifadeci daxil edin")
+    print("zehmet olmasa duzgun ad daxil et")"""
+    
+    
+"""
+# --> //
+# --> %
+# --> **
+# -->  
+"""
+
+"""new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+istifadeci_sayi= 0
+for name in new_list:
+    istifadeci_sayi=istifadeci_sayi+1
+    print(istifadeci_sayi,name)"""
+
+
+#new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+
+"""istifadeci_sayi = 0
+for name in new_list:
+    istifadeci_sayi=istifadeci_sayi+1
+    ad = name.split()[0]
+    soyad = name.split()[1]
+    print('{}. istifadeci adi{} ve soyadi {}'.format(istifadeci_sayi,ad,soyad))"""
+    
+    
+    
+new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+
+istifadeci_sayi = 0
+
+for name in new_list:
+    istifadeci_sayi+=1
+ad = name.split()[0]
+soyad =name.split()[1]
+print('{}. istifadeci adi {} ve soyadi {}'.format(istifadeci_sayi,ad,soyad))

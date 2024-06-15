@@ -1,2 +1,3 @@
-let name = document.getElementById("demo").innerHTML ="salam"
-console.log(name);
+let a = !5
+let b = a
+console.log(b);
