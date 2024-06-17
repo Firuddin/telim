@@ -93,7 +93,7 @@ for name in new_list:
 
 
 
-new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
+"""new_list = ["Firudin aliyev","Hesen Huseynov","Salman hesimov","Cavid zerbiyev"]
 
 moderator = "Hesen Huseynov"
 
@@ -108,4 +108,32 @@ for name in new_list:
         print('{}.Moderator adi {} ve  soyadi {}'.format(moderator_sayı,ad,soyad))
     else:
         istifadec_sayi+=1
-        print('{}.istifadeci adi {} ve soyadi {}'.format(istifadec_sayi,ad,soyad))
+        print('{}.istifadeci adi {} ve soyadi {}'.format(istifadec_sayi,ad,soyad))"""
+        
+        
+"""new_tuple =(1,2,3,4)
+for number in new_tuple:
+    print(number)"""
+    
+"""now_list =[[1,2],[3,4]]
+for x,y in now_list:
+    print(x,y)"""
+    
+"""last_list =["a","b","c","d","e"]
+for index,harf in enumerate(last_list):
+    if harf == "c":
+     print("{} indexde {} herfi".format(index,harf))  """
+     
+     
+     
+     
+"""telebeler = ["Ibrahim Huseynov","Musa Musayev","Seid Mert","Royal Vahabzade"]
+for name in telebeler:
+    print(name)"""
+
+istifadeci_sayi = 0 
+telebeler = ["Ibrahim Huseynov","Musa Musayev","Seid Mert","Royal Vahabzade"]
+
+for name in telebeler:
+ istifadeci_sayi=istifadeci_sayi+1
+print(istifadeci_sayi,name)
