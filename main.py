@@ -131,9 +131,133 @@ for index,harf in enumerate(last_list):
 for name in telebeler:
     print(name)"""
 
-istifadeci_sayi = 0 
-telebeler = ["Ibrahim Huseynov","Musa Musayev","Seid Mert","Royal Vahabzade"]
+
+
+"""telebeler = ["Ibrahim Musayev","Kristiono Ronaldo","Lenoardo Mesi","Musayev Elvin"]
+
+print(telebeler[2:])"""
+
+
+"""numbers = [1,2,3,4,5,"6",7,8,9]
+
+print(numbers[3:8])"""
+
+
+
+"""telebeler = ["Ibrahim Musayev","Kristiono Ronaldo","Lenoardo Mesi","Musayev Elvin"]
 
 for name in telebeler:
- istifadeci_sayi=istifadeci_sayi+1
-print(istifadeci_sayi,name)
+    print(name)"""
+    
+    
+"""new_tuple = ("salam",1,2,4,"Eli")
+for veli in new_tuple:
+    print(veli)"""
+
+
+"""telebeler = ["Ibrahim Huseynov", "Musa Musayev", "Seid Mert", "Royal Vahabzade"]
+
+
+ad = telebeler[0].split()[0]
+soyad = telebeler[0].split()[1]
+
+print("bu şexsin adi {} ve soyadi {}".format(ad, soyad))"""
+
+
+
+
+"""telebeler = ["Ibrahim Huseynov", "Musa Musayev", "Seid Mert", "Royal Vahabzade"]
+
+Moderator ="Musa Musayev"
+istiafdeci_sayi =0
+for name in telebeler:
+    istiafdeci_sayi+=1
+    if Moderator ==name:
+        print("istifadeci nomresi{} olan Moderator {}-dur".format(istiafdeci_sayi,name))
+    else:
+        print("istifadeci nomresi{} olan adi istifadeci {}-dur".format(istiafdeci_sayi,name))
+"""
+
+"""telebeler =("Ibrahim Huseynov", "Musa Musayev", "Seid Mert", "Royal Vahabzade")
+
+for name in telebeler:
+    print(name)"""
+    
+    
+    
+    
+"""telebeler =("Ibrahim Huseynov", "Musa Musayev", "Seid Mert", "Royal Vahabzade")
+moderator = "Musa Musayev"
+istifadeci_sayi = 0
+for name in telebeler:
+    istifadeci_sayi+=1
+    if name == moderator:
+        print("moderator_sayi {} ve adi {}".format(istifadeci_sayi,name))
+        pass
+    else:
+        print("istifadeci_sayi {} ve adi {}".format(istifadeci_sayi,name))"""
+
+
+
+"""telebeler = ["Ali Huseynov","Huseyn Salmanli","Ilyas Ibadov","Resid Esrefov"]
+istiafdeci_sayi = 0
+for name in telebeler:
+    istiafdeci_sayi+=1
+    print(istiafdeci_sayi,name)"""
+    
+    
+    
+    
+"""telebeler = ["Ibrahim Musayev","Kristiono Ronaldo","Lenoardo Mesi","Musayev Elvin"]
+modertor ="Kristiono Ronaldo"
+istifadeci_sayi = 0
+for name in telebeler:
+    istifadeci_sayi+=1
+    if modertor == name:
+        print("moderator nomresi {} ve adi{} ".format(istifadeci_sayi,name))
+    else:
+        print("istifadeci nomresi {} ve adi{} ".format(istifadeci_sayi,name))
+"""
+
+
+"""telebeler = ["Ibrahim Musayev","Kristiono Ronaldo","Lenoardo Mesi","Musayev Elvin"]
+istifadeci_sayi = 0
+for name in telebeler:
+    istifadeci_sayi+=1
+    ad = telebeler[0].split()[0]
+    soyad = telebeler[0].split()[1]
+    print("istifadeci nomresi {} telebenin adi {} ve soy adi {}".format(istifadeci_sayi,ad,soyad))"""
+
+
+
+"""i = 0
+while i<100:
+   print(i)
+   i+=1   #i=i+1
+   
+   
+   
+i=0
+while i<100:
+    i+=1
+    if i ==50:
+        continue
+    print(i)
+    """
+    
+    
+    
+"""for i in range(10):
+    if i == 5:
+        pass
+    print(i)"""
+    
+    
+x = "global x"
+
+def fonk():
+    y ="local y"
+    print(y)
+fonk()
+
+print(x)
