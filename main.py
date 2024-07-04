@@ -1,32 +1,29 @@
 import random
 import re
 
-# Chatbot'un cevaplarını ve kurallarını içeren sözlük
+
 responses = {
-    r"merhaba|selam|hey|hi|hello": ["Merhaba! Nasıl yardımcı olabilirim?", "Selam! Size nasıl yardımcı olabilirim?"],
-    r"nasılsın|naber": ["Teşekkürler, iyiyim siz nasılsınız?", "İyiyim, teşekkür ederim. Siz nasılsınız?"],
-    r"teşekkürler|sağ ol|teşekkür ederim": ["Rica ederim!", "Ne demek, yardımcı olabildiysem ne mutlu bana."],
-    r"üzerine|sonra|konuşuruz": ["Tabii, başka bir şey sorabilirsiniz veya görüşmek üzere!"],
-    r"bye|güle güle|görüşürüz": ["Güle güle, başka zaman tekrar bekleriz!", "Görüşmek üzere!"],
-    r"": ["Üzgünüm, anlamadım. Başka bir şey sormak ister misiniz?"]
+    r"(salam|hi|hello|hey|merhaba)": ["salam nece komek ede bilerem?"],
+    r"(necesiz|naber)": ["tesekkurler!!! yaxsiyam siz necesiz?"],
+    r"(tesekur|saqol)": ["size nece komek ede bilerem?"],
+    r"(saqol|bye-bye|gorusuruz)": ["sende saqol"]
 }
 
-def respond(message):
-    """
-    Kullanıcı mesajına uygun bir cevap döndürür.
-    """
-    for pattern, replies in responses.items():
-        if re.match(pattern, message.lower()):
+
+def respond (message):
+    message=message.lower()
+    for pattern,replies in responses.items():
+        if re.search(pattern,message):
             return random.choice(replies)
-    return random.choice(responses[r""])
+    return "uzur isteyirem hecene anlamadm.Basqa birsey sorusmaq isteyirsen?"
+
 
 if __name__ == "__main__":
-    print("Chatbot: Merhaba! Benimle sohbet edebilirsiniz. Çıkmak için 'bye' yazın.")
+    print("Chatbot: salam menimle sohbet ede bilersiniz.Cixmaq ucun ise 'bye' yazin ")
     while True:
-        user_input = input("You: ")
+        user_input=input("You: ")
         if user_input.lower() == "bye":
-            print("Chatbot: Güle güle!")
+            print("Chatbot: gule-gule")
             break
-        response = respond(user_input)
+        response=respond(user_input)
         print(f"Chatbot: {response}")
-
