@@ -1,3 +1,5 @@
-let a = !5
-let b = a
-console.log(b);
+document.querySelectorAll('.card-button').forEach(button => {
+    button.addEventListener('click', function() {
+        alert('Daha fazla bilgiye tıkladınız!');
+    });
+});
